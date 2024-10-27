@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		46206DCC2CB18EA4007CA8C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46206DB32CB18E9E007CA8C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46206DBA2CB18E9E007CA8C8;
+			remoteInfo = bunny_maze;
+		};
+		46206DD62CB18EA4007CA8C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46206DB32CB18E9E007CA8C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46206DBA2CB18E9E007CA8C8;
+			remoteInfo = bunny_maze;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46206DBB2CB18E9E007CA8C8 /* bunny_maze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bunny_maze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46206DCB2CB18EA4007CA8C8 /* bunny_mazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bunny_mazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46206DD52CB18EA4007CA8C8 /* bunny_mazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bunny_mazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		46206DBD2CB18E9E007CA8C8 /* bunny_maze */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = bunny_maze;
+			sourceTree = "<group>";
+		};
+		46206DCE2CB18EA4007CA8C8 /* bunny_mazeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = bunny_mazeTests;
+			sourceTree = "<group>";
+		};
+		46206DD82CB18EA4007CA8C8 /* bunny_mazeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = bunny_mazeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46206DB82CB18E9E007CA8C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46206DC82CB18EA4007CA8C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46206DD22CB18EA4007CA8C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46206DB22CB18E9E007CA8C8 = {
+			isa = PBXGroup;
+			children = (
+				46206DBD2CB18E9E007CA8C8 /* bunny_maze */,
+				46206DCE2CB18EA4007CA8C8 /* bunny_mazeTests */,
+				46206DD82CB18EA4007CA8C8 /* bunny_mazeUITests */,
+				46206DBC2CB18E9E007CA8C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46206DBC2CB18E9E007CA8C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46206DBB2CB18E9E007CA8C8 /* bunny_maze.app */,
+				46206DCB2CB18EA4007CA8C8 /* bunny_mazeTests.xctest */,
+				46206DD52CB18EA4007CA8C8 /* bunny_mazeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46206DBA2CB18E9E007CA8C8 /* bunny_maze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46206DDF2CB18EA4007CA8C8 /* Build configuration list for PBXNativeTarget "bunny_maze" */;
+			buildPhases = (
+				46206DB72CB18E9E007CA8C8 /* Sources */,
+				46206DB82CB18E9E007CA8C8 /* Frameworks */,
+				46206DB92CB18E9E007CA8C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				46206DBD2CB18E9E007CA8C8 /* bunny_maze */,
+			);
+			name = bunny_maze;
+			packageProductDependencies = (
+			);
+			productName = bunny_maze;
+			productReference = 46206DBB2CB18E9E007CA8C8 /* bunny_maze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46206DCA2CB18EA4007CA8C8 /* bunny_mazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46206DE22CB18EA4007CA8C8 /* Build configuration list for PBXNativeTarget "bunny_mazeTests" */;
+			buildPhases = (
+				46206DC72CB18EA4007CA8C8 /* Sources */,
+				46206DC82CB18EA4007CA8C8 /* Frameworks */,
+				46206DC92CB18EA4007CA8C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46206DCD2CB18EA4007CA8C8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				46206DCE2CB18EA4007CA8C8 /* bunny_mazeTests */,
+			);
+			name = bunny_mazeTests;
+			packageProductDependencies = (
+			);
+			productName = bunny_mazeTests;
+			productReference = 46206DCB2CB18EA4007CA8C8 /* bunny_mazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46206DD42CB18EA4007CA8C8 /* bunny_mazeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46206DE52CB18EA4007CA8C8 /* Build configuration list for PBXNativeTarget "bunny_mazeUITests" */;
+			buildPhases = (
+				46206DD12CB18EA4007CA8C8 /* Sources */,
+				46206DD22CB18EA4007CA8C8 /* Frameworks */,
+				46206DD32CB18EA4007CA8C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46206DD72CB18EA4007CA8C8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				46206DD82CB18EA4007CA8C8 /* bunny_mazeUITests */,
+			);
+			name = bunny_mazeUITests;
+			packageProductDependencies = (
+			);
+			productName = bunny_mazeUITests;
+			productReference = 46206DD52CB18EA4007CA8C8 /* bunny_mazeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46206DB32CB18E9E007CA8C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					46206DBA2CB18E9E007CA8C8 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					46206DCA2CB18EA4007CA8C8 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 46206DBA2CB18E9E007CA8C8;
+					};
+					46206DD42CB18EA4007CA8C8 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 46206DBA2CB18E9E007CA8C8;
+					};
+				};
+			};
+			buildConfigurationList = 46206DB62CB18E9E007CA8C8 /* Build configuration list for PBXProject "bunny_maze" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46206DB22CB18E9E007CA8C8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 46206DBC2CB18E9E007CA8C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46206DBA2CB18E9E007CA8C8 /* bunny_maze */,
+				46206DCA2CB18EA4007CA8C8 /* bunny_mazeTests */,
+				46206DD42CB18EA4007CA8C8 /* bunny_mazeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46206DB92CB18E9E007CA8C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46206DC92CB18EA4007CA8C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46206DD32CB18EA4007CA8C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46206DB72CB18E9E007CA8C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46206DC72CB18EA4007CA8C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46206DD12CB18EA4007CA8C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46206DCD2CB18EA4007CA8C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46206DBA2CB18E9E007CA8C8 /* bunny_maze */;
+			targetProxy = 46206DCC2CB18EA4007CA8C8 /* PBXContainerItemProxy */;
+		};
+		46206DD72CB18EA4007CA8C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46206DBA2CB18E9E007CA8C8 /* bunny_maze */;
+			targetProxy = 46206DD62CB18EA4007CA8C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46206DDD2CB18EA4007CA8C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46206DDE2CB18EA4007CA8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46206DE02CB18EA4007CA8C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bunny_maze/Preview Content\"";
+				DEVELOPMENT_TEAM = 8MF6D62N6X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "my-organization.bunny-maze";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46206DE12CB18EA4007CA8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bunny_maze/Preview Content\"";
+				DEVELOPMENT_TEAM = 8MF6D62N6X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "my-organization.bunny-maze";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46206DE32CB18EA4007CA8C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8MF6D62N6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "my-organization.bunny-mazeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bunny_maze.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bunny_maze";
+			};
+			name = Debug;
+		};
+		46206DE42CB18EA4007CA8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8MF6D62N6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "my-organization.bunny-mazeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bunny_maze.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bunny_maze";
+			};
+			name = Release;
+		};
+		46206DE62CB18EA4007CA8C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8MF6D62N6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "my-organization.bunny-mazeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bunny_maze;
+			};
+			name = Debug;
+		};
+		46206DE72CB18EA4007CA8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8MF6D62N6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "my-organization.bunny-mazeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bunny_maze;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46206DB62CB18E9E007CA8C8 /* Build configuration list for PBXProject "bunny_maze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46206DDD2CB18EA4007CA8C8 /* Debug */,
+				46206DDE2CB18EA4007CA8C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46206DDF2CB18EA4007CA8C8 /* Build configuration list for PBXNativeTarget "bunny_maze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46206DE02CB18EA4007CA8C8 /* Debug */,
+				46206DE12CB18EA4007CA8C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46206DE22CB18EA4007CA8C8 /* Build configuration list for PBXNativeTarget "bunny_mazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46206DE32CB18EA4007CA8C8 /* Debug */,
+				46206DE42CB18EA4007CA8C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46206DE52CB18EA4007CA8C8 /* Build configuration list for PBXNativeTarget "bunny_mazeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46206DE62CB18EA4007CA8C8 /* Debug */,
+				46206DE72CB18EA4007CA8C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46206DB32CB18E9E007CA8C8 /* Project object */;
+}
